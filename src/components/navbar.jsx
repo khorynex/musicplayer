@@ -5,7 +5,7 @@ export const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-brand">
-                <Link className="brand-link" to="/">🎵 Music Player</Link>
+                <Link className="brand-link" to="/musicplayer">🎵 Music Player</Link>
             </div>
 
             <div className="navbar-links">
