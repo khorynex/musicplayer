@@ -17,8 +17,8 @@ function App() {
             </div>
             <div className="content-section">
               <Routes>
-                <Route path="/" element={<AllSongs />} />
-                <Route path="/playlists" element={<Playlists />} />
+                <Route path="/musicplayer" element={<AllSongs />} />
+                <Route path="/musicplayer/playlists" element={<Playlists />} />
               </Routes>
             </div>
           </main>
