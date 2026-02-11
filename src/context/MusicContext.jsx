@@ -222,7 +222,7 @@ export const MusicProvider = ({children}) => {
     const [currentTime, setCurrentTime] = useState( 0 );
     const [duration, setDuration] = useState( 0 );
     const [isPlaying, setIsPlaying] = useState( false );
-    const [volume, setVolume] = useState( 0.5 );
+    const [volume, setVolume] = useState( 0.9 );
     const [playlists, setPlaylists] = useState( [] );
 
 
