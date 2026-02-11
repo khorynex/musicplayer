@@ -9,8 +9,8 @@ export const Navbar = () => {
             </div>
 
             <div className="navbar-links">
-                <Link className={`nav-link ${location.pathname === '/musicplayer' ? "active" : ""}`} to='/musicplayer'>All Songs</Link>
-                <Link className={`nav-link ${location.pathname === '/musicplayer/playlists' ? "active" : ""}`} to='/musicplayer/playlists'>Playlists</Link>
+                <Link className={`nav-link ${location.pathname === '/musicplayer/' ? "active" : ""}`} to='/musicplayer/'>All Songs</Link>
+                <Link className={`nav-link ${location.pathname === '/musicplayer/playlists/' ? "active" : ""}`} to='/musicplayer/playlists/'>Playlists</Link>
             </div>
         </nav>
     );
