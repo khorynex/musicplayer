@@ -310,7 +310,6 @@ export const MusicProvider = ({children}) => {
         playlists,
         addSongToPlaylist,
         setCurrentTrack,
-        handlePlaySong,
         deletePlaylist,
     }}>{children}</MusicContext.Provider>
 }
